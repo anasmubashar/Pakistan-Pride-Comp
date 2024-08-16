@@ -44,7 +44,7 @@ export default function Footer() {
         fields.
       </p>
       <p className="text-[#71717A] mt-3 w-[80%] mx-auto hidden md:block">
-        Pak-Tech Innovations presents future projects and visions for Pakistan's
+        Pak-Tech Innovations presents future projects and visions for Pakistans
         technological landscape. It explores the <br /> potential advancements
         and developments that can be expected in the coming years.
       </p>

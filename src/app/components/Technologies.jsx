@@ -11,7 +11,7 @@ export default function Technologies() {
       <p className="mx-auto text-center mt-3 px-4 block md:hidden pb-2">
         Highlight recent technological advancements, startups, and projects in AI, fintech, and biotech.
       </p>
-      <div class="grid grid-cols-4 grid-rows-3 gap-4 w-[93%] md:w-[80%] h-[70%] mt-4">
+      <div class="z-20 grid grid-cols-4 grid-rows-3 gap-4 w-[93%] md:w-[80%] h-[70%] mt-4">
         <div data-aos="fade-right" class="border border-white rounded-xl bg-[url('/fintech.png')]">
           01
         </div>

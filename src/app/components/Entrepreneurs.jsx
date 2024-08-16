@@ -18,7 +18,7 @@ export default function Entrepreneurs() {
         <br /> are shaping the future of innovation.
       </p>
       <div style={{position: "absolute", transform: "translate(-50%, -64%)", left: "50%", top: "50%" }} className="flex flex-col max-w-[569px]">
-        <img
+        <Image
           loading="lazy"
            data-aos="zoom-in"
           src="/nabeel.png"

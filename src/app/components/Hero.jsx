@@ -3,36 +3,36 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="w-full min-h-[100vh] bg-[url('/Light.png')] text-white relative overflow-hidden">
-      <img
+      <Image
         className="absolute z-[1] w-full h-full object-contain hidden md:block"
         src="/Line.png"
         alt="line"
       />
-      <img
+      <Image
         className="absolute z-[10] bottom-0 left-[20%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building1.png"
         data-aos="fade-down"
         alt="building"
       />
-      <img
+      <Image
         className="absolute z-[10] bottom-20 left-[40%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building2.png"
         data-aos="fade-down"
         alt="building"
       />
-      <img
+      <Image
         className="absolute z-[10] bottom-0 left-[60%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building3.png"
         data-aos="fade-down"
         alt="building"
       />
-      <img
+      <Image
         className="absolute z-[10] bottom-28 right-0 w-[15%]  object-contain hidden md:block"
         src="/building4.png"
         data-aos="fade-left"
         alt="building"
       />
-      <img
+      <Image
         className="absolute z-[10] bottom-28 left-0 w-[12%]  object-contain hidden md:block"
         src="/building5.png"
         data-aos="fade-right"
