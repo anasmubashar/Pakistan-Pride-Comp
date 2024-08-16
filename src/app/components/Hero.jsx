@@ -11,26 +11,31 @@ export default function Hero() {
       <img
         className="absolute z-[10] bottom-0 left-[20%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building1.png"
+        data-aos="fade-down"
         alt="building"
       />
       <img
         className="absolute z-[10] bottom-20 left-[40%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building2.png"
+        data-aos="fade-down"
         alt="building"
       />
       <img
         className="absolute z-[10] bottom-0 left-[60%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building3.png"
+        data-aos="fade-down"
         alt="building"
       />
       <img
         className="absolute z-[10] bottom-28 right-0 w-[15%]  object-contain hidden md:block"
         src="/building4.png"
+        data-aos="fade-left"
         alt="building"
       />
       <img
         className="absolute z-[10] bottom-28 left-0 w-[12%]  object-contain hidden md:block"
         src="/building5.png"
+        data-aos="fade-right"
         alt="building"
       />
       <nav className="flex justify-center">
@@ -44,10 +49,10 @@ export default function Hero() {
           <a className="cursor-pointer hover:opacity-80 transition-all z-10" href="#">About Us</a>
         </li>
       </nav>
-      <h1 className="text-center text-gradient text-6xl mt-24">
+      <h1 className="text-center text-gradient text-6xl mt-24" data-aos="fade-up">
         Shaping the Future
       </h1>
-      <p className="mx-auto text-center w-[90%] md:w-[40%] text-[rgba(255, 255, 255, 0.70)] mt-7 leading-6 mb-8">
+      <p data-aos="fade-up" className="mx-auto text-center w-[90%] md:w-[40%] text-[rgba(255, 255, 255, 0.70)] mt-7 leading-6 mb-8 ">
         Discover the cutting-edge technologies, visionary entrepreneurs, and
         future projects that are propelling Pakistan towards a brighter
         tomorrow.

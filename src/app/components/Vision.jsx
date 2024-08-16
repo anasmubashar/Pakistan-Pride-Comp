@@ -57,6 +57,7 @@ const Vision = () => {
                 <div className="grid grid-cols-6 md:grid-cols-12 px-4 md:px-10 mt-10 mx-auto">
                     {visionData.map((Item) => (
                         <div
+                              data-aos="fade-up"
                             key={Item.subTitile}
                             className="col-span-12 md:col-span-6 border-[#13250A] border-2 rounded-3xl flex m-3 pr-2 bg-[#151706]"
                         >

@@ -7,14 +7,15 @@ export default function Innovations() {
           <Image
             className="self-end"
             layout="intrinsic"
+            data-aos="zoom-in"
             width={700}
             height={600}
             src="/vr.png"
             alt="Person in vr"
             objectFit="cover"
           />
-          <div className="mt-10 md:mt-0 md:ml-0 md:mr-[10vw]">
-            <h1 className="text-start text-gradient text-6xl">
+          <div className="mt-10 md:mt-0 md:ml-0 md:mr-[10vw] ">
+            <h1 data-aos="zoom-in-down" className="text-start text-gradient text-6xl">
               Innovation <br /> you can see, <br /> hear, and feel.
             </h1>
             <div className="flex gap-4 mt-10">

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className="min-h-[100vh] bg-black relative flex flex-col justify-start box-border py-20">
-      <div className="bg-[#09200FCC] bg-opacity-75 w-[80%] mt-8 h-full pb-10 md:pb-0 md:h-[400px] rounded-xl mx-auto flex flex-col  text-white">
+      <div data-aos="zoom-in-up" className="bg-[#09200FCC] bg-opacity-75 w-[80%] mt-8 h-full pb-10 md:pb-0 md:h-[400px] rounded-xl mx-auto flex flex-col  text-white">
         <div className="ellipse h-80 w-80"></div>
         <p className="text-3xl md:text-5xl mt-4 font-bold mb-7 pt-10 font-sans text-center leading-[6vh] md:leading-[9vh]">
           Become part of the <br /> design revolution

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Entrepreneurs() {
   return (
-    <div className="bg-black min-h-[100vh] pt-10 py-10 relative text-white flex flex-col ">
+    <div  className="bg-black min-h-[100vh] pt-10 py-10 relative text-white flex flex-col ">
       <Image
         className="absolute top-0 right-0 left-0 mx-auto z-auto"
         width={700}
@@ -20,12 +20,13 @@ export default function Entrepreneurs() {
       <div style={{position: "absolute", transform: "translate(-50%, -64%)", left: "50%", top: "50%" }} className="flex flex-col max-w-[569px]">
         <img
           loading="lazy"
+           data-aos="zoom-in"
           src="/nabeel.png"
           alt=""
           className="object-contain w-[400px] aspect-[1.94] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] cursor-pointer hover:opacity-80 transition-all z-10"
         />
       </div>      
-      <div className="flex justify-center items-center absolute bottom-0 overflow-hidden w-full">
+      <div  data-aos="zoom-in" className="flex justify-center items-center absolute bottom-0 overflow-hidden w-full">
         <Image
           layout="intrinsic"
           src="/2.png"
