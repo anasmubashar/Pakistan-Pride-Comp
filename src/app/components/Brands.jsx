@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Brands() {
   return (
-    <div className="h-[15vh] bg-[url('/Light1.png')] flex flex-col">
+    <div className="h-[18vh] pt-5 bg-[url('/Light1.png')] flex flex-col">
       <p className="text-center text-[#71717A]">Popular brands use buzzle</p>
       <div className="flex gap-28 overflow-hidden h-[25%] my-auto scroll-content">
         <Image
