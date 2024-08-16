@@ -14,7 +14,7 @@ export default function Innovations() {
             objectFit="cover"
           />
           <div className="md:mr-[10vw]">
-            <h1 className="text-start text-gradient text-6xl leading-[12vh]">
+            <h1 className="text-start text-gradient text-6xl">
               Innovation <br /> you can see, <br /> hear, and feel.
             </h1>
             <div className="flex gap-4 mt-10">
@@ -26,8 +26,6 @@ export default function Innovations() {
                 <Image src="/Arrow.svg" alt="Arrow" width={20} height={20} />
               </button>
             </div>
-
-
           </div>
         </div>
       </div>

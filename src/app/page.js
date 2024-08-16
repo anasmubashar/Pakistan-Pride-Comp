@@ -6,6 +6,8 @@ import Collection from "./components/Collection";
 import Technologies from "./components/Technologies";
 import Innovations from "./components/Innovation";
 import Vision from "./components/Vision";
+import Entrepreneurs from "./components/Entrepreneurs";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
       <Collection />
       <Technologies />
       <Innovations />
-      <Vision/>
+      <Vision />
+      <Entrepreneurs />
+      <Footer />
     </main>
   );
 }

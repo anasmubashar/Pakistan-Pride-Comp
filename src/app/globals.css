@@ -26,3 +26,16 @@
     transform: translateX(-50%);
   }
 }
+
+.ellipse {
+  border-radius: 365px;
+  background: rgba(3, 131, 39, 0.2);
+  filter: blur(174px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: auto;
+}

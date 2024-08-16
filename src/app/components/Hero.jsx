@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full h-[65vh] min-h-screen bg-[url('/Light.png')] text-white relative overflow-hidden">
+    <div className="w-full h-[60vh]  bg-[url('/Light.png')] text-white relative overflow-hidden">
       <img
         className="absolute z-[1] w-full h-full object-contain"
         src="/Line.png"
