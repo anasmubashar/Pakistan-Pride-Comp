@@ -2,12 +2,16 @@ import Image from "next/image";
 
 export default function Technologies() {
   return (
-    <div className="h-[50vh] bg-[url('/Light4.png')] text-white flex flex-col items-center">
-      <p className="mx-auto text-center mt-3">
+    <div className="min-h-[100vh] bg-[url('/Light4.png')] text-white flex flex-col items-center pt-10 pb-20">
+      <h2 className="text-white mt-3 text-4xl font-bold">AI-Powered Design</h2>
+      <p className="mx-auto text-center mt-3 hidden md:block">
         Highlight recent technological advancements, startups, and projects in
         <br /> AI, fintech, and biotech.
       </p>
-      <div class="grid grid-cols-4 grid-rows-3 gap-4 w-[80%] h-[70%] mt-4">
+      <p className="mx-auto text-center mt-3 px-4 block md:hidden pb-2">
+        Highlight recent technological advancements, startups, and projects in AI, fintech, and biotech.
+      </p>
+      <div class="grid grid-cols-4 grid-rows-3 gap-4 w-[93%] md:w-[80%] h-[70%] mt-4">
         <div class="border border-white rounded-xl bg-[url('/fintech.png')]">
           Fintech
         </div>
@@ -23,7 +27,7 @@ export default function Technologies() {
         <div class="col-start-2 col-span-2 row-start-2 row-span-2 border border-white rounded-xl bg-[url('/iot.png')]">
           05
         </div>
-        <div class="border border-white rounded-xl bg-[url('/ai.png')]">06</div>
+        <div class="border border-white rounded-xl bg-[url('/ai.png')] h-[200px]">06</div>
         <div class="border border-white rounded-xl bg-[url('/ai2.png')]">
           07
         </div>

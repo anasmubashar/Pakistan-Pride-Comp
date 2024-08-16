@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Entrepreneurs() {
   return (
-    <div className="bg-black h-[50vh] relative text-white flex flex-col ">
+    <div className="bg-black min-h-[100vh] pt-10 py-10 relative text-white flex flex-col ">
       <Image
         className="absolute top-0 right-0 left-0 mx-auto z-auto"
         width={700}
@@ -17,7 +17,14 @@ export default function Entrepreneurs() {
         Discover the inspiring stories of young Pakistani entrepreneurs who{" "}
         <br /> are shaping the future of innovation.
       </p>
-      <div className="flex justify-center items-center absolute bottom-0 overflow-hidden w-full">
+      <div style={{position: "absolute", transform: "translate(-50%, -64%)", left: "50%", top: "50%" }} className="flex flex-col max-w-[569px]">
+        <img
+          loading="lazy"
+          src="/nabeel.png"
+          alt=""
+          className="object-contain w-[400px] aspect-[1.94] shadow-[0px_4px_4px_rgba(0,0,0,0.25)]"
+        />
+      </div>      <div className="flex justify-center items-center absolute bottom-0 overflow-hidden w-full">
         <Image
           layout="intrinsic"
           src="/2.png"

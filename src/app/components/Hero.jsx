@@ -2,34 +2,34 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full h-[60vh]  bg-[url('/Light.png')] text-white relative overflow-hidden">
+    <div className="w-full min-h-[100vh] bg-[url('/Light.png')] text-white relative overflow-hidden">
       <img
-        className="absolute z-[1] w-full h-full object-contain"
+        className="absolute z-[1] w-full h-full object-contain hidden md:block"
         src="/Line.png"
         alt="line"
       />
       <img
-        className="absolute z-[10] bottom-0 left-[20%] w-[20%] h-[20%] object-contain"
+        className="absolute z-[10] bottom-0 left-[20%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building1.png"
         alt="building"
       />
       <img
-        className="absolute z-[10] bottom-0 left-[40%] w-[20%] h-[20%] object-contain"
+        className="absolute z-[10] bottom-20 left-[40%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building2.png"
         alt="building"
       />
       <img
-        className="absolute z-[10] bottom-0 left-[60%] w-[20%] h-[20%] object-contain"
+        className="absolute z-[10] bottom-0 left-[60%] w-[20%] h-[20%] object-contain hidden md:block"
         src="/building3.png"
         alt="building"
       />
       <img
-        className="absolute z-[10] bottom-28 right-0 w-[15%]  object-contain"
+        className="absolute z-[10] bottom-28 right-0 w-[15%]  object-contain hidden md:block"
         src="/building4.png"
         alt="building"
       />
       <img
-        className="absolute z-[10] bottom-28 left-0 w-[12%]  object-contain"
+        className="absolute z-[10] bottom-28 left-0 w-[12%]  object-contain hidden md:block"
         src="/building5.png"
         alt="building"
       />
@@ -47,7 +47,7 @@ export default function Hero() {
       <h1 className="text-center text-gradient text-6xl mt-24">
         Shaping the Future
       </h1>
-      <p className="mx-auto text-center w-[40%] text-[rgba(255, 255, 255, 0.70)] mt-7 leading-6 mb-8">
+      <p className="mx-auto text-center w-[90%] md:w-[40%] text-[rgba(255, 255, 255, 0.70)] mt-7 leading-6 mb-8">
         Discover the cutting-edge technologies, visionary entrepreneurs, and
         future projects that are propelling Pakistan towards a brighter
         tomorrow.
