@@ -22,9 +22,10 @@ export default function Entrepreneurs() {
           loading="lazy"
           src="/nabeel.png"
           alt=""
-          className="object-contain w-[400px] aspect-[1.94] shadow-[0px_4px_4px_rgba(0,0,0,0.25)]"
+          className="object-contain w-[400px] aspect-[1.94] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] cursor-pointer hover:opacity-80 transition-all z-10"
         />
-      </div>      <div className="flex justify-center items-center absolute bottom-0 overflow-hidden w-full">
+      </div>      
+      <div className="flex justify-center items-center absolute bottom-0 overflow-hidden w-full">
         <Image
           layout="intrinsic"
           src="/2.png"

@@ -11,7 +11,7 @@ export default function Footer() {
         <p className="text-center text-md leading-7">
           Jump on a membership and start <br /> requesting designs right away!
         </p>
-        <button className="h-8 w-36 mt-6 font-semibold text-sm flex gap-2 items-center px-6 rounded-full bg-[#009F30] text-white mx-auto cursor-pointer hover:opacity-80 transition-all">
+        <button className="h-8 w-36 mt-6 font-semibold text-sm flex gap-2 items-center px-6 rounded-full bg-[#009F30] text-white mx-auto cursor-pointer hover:opacity-80 transition-all z-10">
           See Pricing
           <Image src="/send.svg" alt="Arrow" width={15} height={15} />
         </button>

@@ -35,13 +35,13 @@ export default function Hero() {
       />
       <nav className="flex justify-center">
         <li className="flex gap-2 mt-4 items-center font-light">
-          <a href="#">Home</a>
+          <a className="cursor-pointer hover:opacity-80 transition-all z-10" href="#">Home</a>
           <p className="mb-1 text-lg">.</p>
-          <a href="#">Tech</a>
+          <a className="cursor-pointer hover:opacity-80 transition-all z-10" href="#">Tech</a>
           <p className="mb-1 text-lg">.</p>
-          <a href="#">Entrepreneurs</a>
+          <a className="cursor-pointer hover:opacity-80 transition-all z-10" href="#">Entrepreneurs</a>
           <p className="mb-1 text-lg">.</p>
-          <a href="#">About Us</a>
+          <a className="cursor-pointer hover:opacity-80 transition-all z-10" href="#">About Us</a>
         </li>
       </nav>
       <h1 className="text-center text-gradient text-6xl mt-24">
@@ -53,11 +53,11 @@ export default function Hero() {
         tomorrow.
       </p>
 
-      <div className="flex gap-4 justify-center  mt-4">
-        <button className="h-8 font-semibold text-sm w-40 rounded-full bg-[#009F30]">
+      <div className="flex gap-4 justify-center mt-4">
+        <button className="h-8 font-semibold text-sm w-40 rounded-full bg-[#009F30] cursor-pointer hover:opacity-80 transition-all z-10">
           Explore Innovations
         </button>
-        <button className="h-8 text-[14px] w-[12.3rem] border-[0.656px] font-semibold border-[rgba(255, 255, 255, 0.20)] gap-1 rounded-full flex justify-center items-center">
+        <button className="h-8 text-[14px] w-[12.3rem] border-[0.656px] font-semibold border-[rgba(255, 255, 255, 0.20)] gap-1 rounded-full flex justify-center items-center cursor-pointer hover:opacity-80 transition-all z-10">
           <p>Meet Our Entrepreneurs</p>
           <Image src="/Arrow.svg" alt="Arrow" width={20} height={20} />
         </button>

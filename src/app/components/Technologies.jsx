@@ -15,23 +15,23 @@ export default function Technologies() {
         <div class="border border-white rounded-xl bg-[url('/fintech.png')]">
           Fintech
         </div>
-        <div class="col-start-2 col-span-2 border border-white rounded-xl bg-[url('/tech.png')]">
+        <div class="col-start-2 col-span-2 border border-white rounded-xl bg-[url('/tech.png')] cursor-pointer z-10 hover:scale-110 transition-all">
           02
         </div>
-        <div class="border border-white rounded-xl bg-[url('/Biz.png')]">
+        <div class="border border-white rounded-xl bg-[url('/Biz.png')] cursor-pointer z-10 hover:scale-110 transition-all">
           03
         </div>
-        <div class="col-start-1  border border-white rounded-xl bg-[url('/biotech.png')]">
+        <div class="col-start-1  border border-white rounded-xl bg-[url('/biotech.png')] cursor-pointer z-10 hover:scale-110 transition-all">
           04
         </div>
-        <div class="col-start-2 col-span-2 row-start-2 row-span-2 border border-white rounded-xl bg-[url('/iot.png')]">
+        <div class="col-start-2 col-span-2 row-start-2 row-span-2 border border-white rounded-xl bg-[url('/iot.png')] cursor-pointer z-14 hover:scale-110 transition-all">
           05
         </div>
-        <div class="border border-white rounded-xl bg-[url('/ai.png')] h-[200px]">06</div>
-        <div class="border border-white rounded-xl bg-[url('/ai2.png')]">
+        <div class="border cursor-pointer z-10 hover:scale-110 transition-all border-white rounded-xl bg-[url('/ai.png')] h-[200px]">06</div>
+        <div class="border border-white rounded-xl bg-[url('/ai2.png')] cursor-pointer z-10 hover:scale-110 transition-all">
           07
         </div>
-        <div class="border border-white rounded-xl bg-[url('/earth.png')]">
+        <div class="border border-white rounded-xl bg-[url('/earth.png')] cursor-pointer z-10 hover:scale-110 transition-all">
           08
         </div>
       </div>
