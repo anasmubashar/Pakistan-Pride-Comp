@@ -8,6 +8,31 @@ export default function Hero() {
         src="/Line.png"
         alt="line"
       />
+      <img
+        className="absolute z-[10] bottom-0 left-[20%] w-[20%] h-[20%] object-contain"
+        src="/building1.png"
+        alt="building"
+      />
+      <img
+        className="absolute z-[10] bottom-0 left-[40%] w-[20%] h-[20%] object-contain"
+        src="/building2.png"
+        alt="building"
+      />
+      <img
+        className="absolute z-[10] bottom-0 left-[60%] w-[20%] h-[20%] object-contain"
+        src="/building3.png"
+        alt="building"
+      />
+      <img
+        className="absolute z-[10] bottom-28 right-0 w-[15%]  object-contain"
+        src="/building4.png"
+        alt="building"
+      />
+      <img
+        className="absolute z-[10] bottom-28 left-0 w-[12%]  object-contain"
+        src="/building5.png"
+        alt="building"
+      />
       <nav className="flex justify-center">
         <li className="flex gap-2 mt-4 items-center font-light">
           <a href="#">Home</a>
